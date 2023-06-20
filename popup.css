@@ -1,0 +1,115 @@
+
+
+#popup {
+  height: 500px;
+  width: 500px;
+  padding: 20px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color:rgb(142, 105, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+  overflow: hidden;
+}
+
+h1 {
+  color: rgb(142, 105, 255);
+  margin-top: 5;
+  margin-bottom: 0;
+}
+h2 {
+  color: rgb(142, 105, 255);
+  margin-top: 5;
+  margin-bottom: 5;
+}
+h3 {
+  color: rgb(142, 105, 255);
+  border-bottom: 1px solid rgb(142, 105, 255);
+  padding-bottom: 5;  
+  margin-top: 30;
+}
+
+.button {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(85, 61, 159);
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5;
+
+}
+
+.button:hover {
+  background-color: rgba(143, 105, 255, 0.578);
+}
+
+
+p {
+  color: rgb(100, 100, 100);
+}
+
+.buttonSecondary {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(116, 72, 247, 0);
+  border: 2px solid rgb(85, 61, 159);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: rgb(85, 61, 159);
+  display: inline-block;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5;
+
+}
+
+.buttonSecondary:hover {
+  background-color: rgba(143, 105, 255, 0.578);
+}
+
+
+
+input {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(85, 61, 159);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-right: 5;
+}
+
+input:focus {
+  outline: none;
+  background-color: rgb(222, 222, 222);
+}
+
+

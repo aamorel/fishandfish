@@ -1,0 +1,36 @@
+.inner-rectangle {
+  height: 100%;
+  left: 0px;
+  right: 50%;
+  width: 50%;
+  padding-left: 1%;
+  white-space: nowrap; 
+  overflow: visible;
+  display: flex;
+  align-items: center;
+}
+
+.outer-rectangle {
+  box-sizing: border-box;
+  height: 32px;
+  border: 2px solid rgb(85, 61, 159);
+  border-radius: 10px;
+  text-align: left;
+  overflow: hidden;
+  position: relative;
+  margin-top: 5px;
+}
+
+div.scroll {
+  width: 500px;
+  height: 307px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+div.scroll2 {
+  width: 500px;
+  height: 275px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}

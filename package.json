@@ -1,0 +1,45 @@
+{
+  "name": "fishandfish",
+  "displayName": "Fish and fish",
+  "version": "0.0.1",
+  "description": "Browse with your team and create a shared mind",
+  "author": "aamorel",
+  "packageManager": "npm@8.19.3",
+  "scripts": {
+    "dev": "plasmo dev",
+    "build": "plasmo build",
+    "package": "plasmo package"
+  },
+  "dependencies": {
+    "@tensorflow-models/universal-sentence-encoder": "^1.3.3",
+    "@tensorflow/tfjs": "^3.7.0",
+    "firebase": "^9.20.0",
+    "html2plaintext": "^2.1.4",
+    "mathjs": "^11.8.0",
+    "plasmo": "^0.68.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remove-stopwords": "^1.0.3",
+    "svgo": "^3.0.2",
+    "wink-pos-tagger": "^2.2.2"
+  },
+  "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.4",
+    "@types/chrome": "0.0.227",
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.32",
+    "@types/react-dom": "18.0.11",
+    "prettier": "2.8.7",
+    "typescript": "5.0.3"
+  },
+  "manifest": {
+    "host_permissions": [
+      "https://*/*"
+    ],
+    "permissions": [
+      "bookmarks",
+      "tabs",
+      "storage"
+    ]
+  }
+}
