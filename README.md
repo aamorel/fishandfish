@@ -11,7 +11,7 @@ This is a chrome extension that allows you to curate information with your frien
 ## Initial creators
 
 - Dhruv Agarwal
-- Maxime Vidal https://vmax.one/ https://github.com/vidalmaxime https://twitter.com/vmaxmc2
+- Maxime Vidal https://vmax.one/ https://twitter.com/vmaxmc2
 - Aurélien Morel https://twitter.com/aurelien_morel
 
 ## Development setup
