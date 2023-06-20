@@ -1,5 +1,7 @@
 # Fish and fish
 
+![Fish and fish](assets/icon.svg)
+
 Have fun curating information with your friends !
 
 ## What is this ?
